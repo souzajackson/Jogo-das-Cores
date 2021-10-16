@@ -1,0 +1,21 @@
+button{
+    display: block;
+    margin: auto;
+    background-color: #f6ff00;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #8400ff;
+    border-radius: 1em;
+    padding: 10px;
+    border: solid 2px black;
+    transition: background .4s;
+    cursor: pointer;
+}
+body{
+    background-image: linear-gradient(to right, #892be2c5,rgba(97, 31, 160, 0.774));
+    color: rgb(246, 255, 0);
+    font: normal 20px Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}

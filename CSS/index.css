@@ -1,0 +1,19 @@
+div{
+    display: flex;
+    justify-content: center;
+    background-color: #00dc00;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 32px;
+    border: solid 2px black;
+    padding: 5px;
+    border-radius: 5em;
+    color: #DB006E;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: background .4s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #ecd400
+}

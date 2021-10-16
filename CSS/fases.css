@@ -1,0 +1,22 @@
+header{
+    font-size: 100px;
+    margin-top: -40px;
+    margin-bottom: -85px;
+    margin-left: 10px;
+}
+a{
+    color: rgb(246, 255, 0);
+    text-decoration: none;
+}
+div.color{
+    display: flex;
+    width: 220px;
+    height: 220px;
+    margin: auto;
+    border: solid 4px white;
+    border-radius: 3em;
+    cursor: pointer;
+}
+h2{
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Difícil</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/fases.css">
+    <style>
+        #color1, #color2, #color3{
+            margin-bottom: 40px;
+        }
+        .row{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        #color1, #color4{
+            margin-right: 10px;
+        }
+        #color6, #color3{
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body id="body">
+    <header><a href="../index.html">&#x2190;</a></header>
+    <h1></h1>
+    <div class="row">
+        <div class="color" id="color1" onclick="check(0)"></div>
+        <div class="color" id="color2" onclick="check(1)"></div>
+        <div class="color" id="color3" onclick="check(2)"></div>
+    </div>
+    <div class="row">
+        <div class="color" id="color4" onclick="check(3)"></div>
+        <div class="color" id="color5" onclick="check(4)"></div>
+        <div class="color" id="color6" onclick="check(5)"></div>
+    </div>
+    <script src="../JS/fases.js"></script>
+</body>
+</html>
